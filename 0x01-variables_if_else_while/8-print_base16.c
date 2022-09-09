@@ -1,21 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
  * main - Entry point
- *
+ * autor: salihu
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int d;
-	char low;
+	int salihu;
+	char abdul;
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(d);
-	for (low = 'a'; low <= 'f'; low++)
-		putchar(low);
-		putchar('\n');
-
+	for (salihu = 48; salihu < 58; salihu++)
+		putchar(salihu);
+	for (abdul = 'a'; abdul <= 'f'; abdul++)
+		putchar(abdul);
+	putchar('\n');
 	return (0);
 }
